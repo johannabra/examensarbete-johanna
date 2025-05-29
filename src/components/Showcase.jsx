@@ -6,7 +6,6 @@ const Showcase = () => {
   const [feedbackCount, setFeedbackCount] = useState(0);
   const [animateCount, setAnimateCount] = useState(false);
 
-  // Ladda feedbackCount från localStorage vid start
   useEffect(() => {
     const storedCount = localStorage.getItem("feedbackCount");
     if (storedCount) {
@@ -36,7 +35,7 @@ const Showcase = () => {
           Här kan du ta del av vårt examensarbete i sin helhet.
         </p>
         <a
-          href="/Johannasexamensarbete.pdf"
+          href="/Examensarbete.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="download-link"
