@@ -5,15 +5,15 @@ const Gallery = () => {
   const team = [
     {
       name: "Johanna Branting",
-      role: "UX-designer & tillgänglighetsdrivare",
+      role: "UX-designer & Workshop facilitator",
       src: johanna,
       alt: "Porträtt av Johanna Branting",
     },
     {
-      name: "Emelie Andersson",
-      role: "UX-designer & medforskare",
+      name: "Emelie Svensson",
+      role: "UX-designer & Workshop facilitator",
       src: emelie,
-      alt: "Porträtt av Emelie Andersson",
+      alt: "Porträtt av Emelie Svensson",
     },
   ];
 

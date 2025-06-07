@@ -34,7 +34,7 @@ const Showcase = () => {
         </p>
 
         <a
-          href="/Examensarbete.pdf"
+          href="/j_branting_Examensarbete.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="download-link"
