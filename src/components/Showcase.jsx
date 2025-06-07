@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ifLogo from "../assets/if_logo.png";
 
 const Showcase = () => {
   const [showForm, setShowForm] = useState(false);
@@ -30,10 +29,10 @@ const Showcase = () => {
   return (
     <section id="showcase" className="section">
       <div className="showcase-center">
-        <img src={ifLogo} alt="If logotyp" className="inline-logo" />
         <p className="showcase-text">
           Här kan du ta del av vårt examensarbete i sin helhet.
         </p>
+
         <a
           href="/Examensarbete.pdf"
           target="_blank"
